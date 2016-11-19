@@ -1,0 +1,11 @@
+.element {
+  color: #0A81C4;
+}
+
+.element-shaded {
+  color: color(#0A81C4 shade(40%));
+}
+
+.element-tinted {
+  color: color(#0A81C4 tint(40%));
+}

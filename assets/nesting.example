@@ -1,0 +1,5 @@
+.element {
+  color: blue;
+
+  { &.modifier { color: red; } }
+}

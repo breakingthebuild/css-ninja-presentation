@@ -1,0 +1,5 @@
+#ninja {
+  color: black;
+  visibility: hidden;
+  animation-duration: 0.00001s;
+}

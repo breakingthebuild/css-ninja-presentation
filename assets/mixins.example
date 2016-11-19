@@ -1,0 +1,11 @@
+:root {
+  --clearfix: {
+    display:  table;
+    clear:    both;
+    content:  '';
+  }
+}
+
+.element:after {
+  @apply --clearfix;
+}

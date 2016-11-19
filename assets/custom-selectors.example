@@ -1,0 +1,20 @@
+@custom-selector --small (min-width: 30em);
+
+@media (--small) {
+  .element {
+    font-size: 1.5rem;
+  }
+}
+
+// Media Range Query
+@media (30em <= width <= 60em) {
+  .element {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 30em) and (max-width: 60em) {
+  .element {
+    font-size: 1.5rem;
+  }
+}
